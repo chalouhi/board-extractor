@@ -1,0 +1,8 @@
+@font-face { font-family: "Carlito"; src: url("fonts/Carlito-Regular.ttf") format("truetype"); font-weight: 400; }
+@font-face { font-family: "Carlito"; src: url("fonts/Carlito-Bold.ttf") format("truetype"); font-weight: 700; }
+html { background: #FFFFFF; }
+body { margin: 0; padding: 16px 24px 32px; font-family: Calibri, Carlito, "Segoe UI", Arial, sans-serif; color: #16232A; background: #FFFFFF; }
+.example-line { margin: 0 0 12px; font-size: 14px; color: #5F7078; }
+.example-line code { font-family: ui-monospace, Menlo, Consolas, monospace; font-size: 13px; }
+.load-failed { color: #C62828; }
+@media (max-width: 600px) { body { padding: 12px 16px 24px; } }

@@ -1,0 +1,34 @@
+{
+  "records": [
+    {
+      "id": "47",
+      "title": "Stock count before opening",
+      "stage": "ready"
+    },
+    {
+      "id": "48",
+      "title": "Size guide on every product page",
+      "stage": "review"
+    },
+    {
+      "title": "Shelf labels with the new prices",
+      "stage": "ready"
+    },
+    {
+      "id": "44",
+      "title": "New checkout page",
+      "stage": "doing"
+    },
+    {
+      "id": "48",
+      "title": "Basket total wrong",
+      "stage": "doing"
+    },
+    {
+      "id": "50",
+      "title": "Window display",
+      "stage": "doing",
+      "due": "14 March"
+    }
+  ]
+}

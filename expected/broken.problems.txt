@@ -1,0 +1,6 @@
+Settings: the format version ("extractor") is missing or is not 1.
+Settings: the column "Doing" lists the stage "ready", which the column "Ready" already has.
+Record 2 (id "48"): the stage "review" is not in the settings. In the settings: idea, ready, doing, checking, rework, done.
+Record 3: the id is missing.
+Record 5 (id "48"): the id "48" is used twice.
+Record 6 (id "50"): the due date is "14 March"; a date is written YYYY-MM-DD.

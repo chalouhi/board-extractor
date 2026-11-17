@@ -1,0 +1,102 @@
+{
+  "extractor": 1,
+  "title": "Shop relaunch",
+  "link_pattern": "https://example.com/cards/{id}",
+  "strip": {
+    "name": "Needs you"
+  },
+  "columns": [
+    {
+      "name": "Ideas",
+      "stages": [
+        "idea"
+      ]
+    },
+    {
+      "name": "Ready",
+      "stages": [
+        "ready"
+      ],
+      "limit": 4
+    },
+    {
+      "name": "Doing",
+      "stages": [
+        "doing"
+      ],
+      "limit": 2
+    },
+    {
+      "name": "Checking",
+      "stages": [
+        "checking",
+        "rework"
+      ]
+    },
+    {
+      "name": "Done",
+      "stages": [
+        "done"
+      ],
+      "show": 3,
+      "keep_latest": 3,
+      "more_link": "https://example.com/done"
+    }
+  ],
+  "buttons": [
+    {
+      "name": "Start",
+      "kinds": [
+        "Feature",
+        "Fix",
+        "Task"
+      ],
+      "columns": [
+        "Ready"
+      ],
+      "main": true,
+      "action": "start",
+      "link": "https://example.com/cards/{id}/start"
+    },
+    {
+      "name": "Send to checking",
+      "columns": [
+        "Doing"
+      ],
+      "main": true,
+      "action": "check",
+      "link": "https://example.com/cards/{id}/check"
+    },
+    {
+      "name": "Accept",
+      "columns": [
+        "Checking"
+      ],
+      "main": true,
+      "action": "accept",
+      "link": "https://example.com/cards/{id}/accept"
+    },
+    {
+      "name": "Send back",
+      "columns": [
+        "Checking"
+      ],
+      "action": "send-back",
+      "link": "https://example.com/cards/{id}/send-back"
+    },
+    {
+      "name": "Discuss",
+      "link": "https://example.com/cards/{id}/discuss"
+    },
+    {
+      "name": "Add note",
+      "action": "note"
+    },
+    {
+      "name": "Archive",
+      "confirm": "Archive this card?",
+      "action": "archive",
+      "link": "https://example.com/cards/{id}/archive"
+    }
+  ]
+}

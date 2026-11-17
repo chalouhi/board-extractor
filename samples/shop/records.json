@@ -1,0 +1,157 @@
+{
+  "records": [
+    {
+      "id": "53",
+      "title": "Loyalty stamps for returning customers",
+      "stage": "idea",
+      "kind": "Feature",
+      "group": "Launch day",
+      "due": "2026-04-20",
+      "order": 40
+    },
+    {
+      "id": "35",
+      "title": "Old price list taken down",
+      "stage": "done",
+      "kind": "Task",
+      "group": "Stockroom",
+      "changed": "2026-02-20T10:00:00"
+    },
+    {
+      "id": "44",
+      "title": "New checkout page with one-step payment",
+      "stage": "doing",
+      "kind": "Feature",
+      "group": "Website",
+      "due": "2026-03-16",
+      "order": 80
+    },
+    {
+      "id": "46",
+      "title": "Window display for launch week",
+      "stage": "doing",
+      "kind": "Task",
+      "group": "Launch day",
+      "order": 100
+    },
+    {
+      "id": "37",
+      "title": "Launch date agreed",
+      "stage": "done",
+      "kind": "Decision",
+      "group": "Launch day",
+      "changed": "2026-03-02T09:30:00"
+    },
+    {
+      "id": "40",
+      "title": "Returns policy rewritten in plain words",
+      "stage": "done",
+      "kind": "Task",
+      "group": "Website",
+      "changed": "2026-03-08T16:20:00"
+    },
+    {
+      "id": "47",
+      "title": "Stock count before opening",
+      "stage": "ready",
+      "kind": "Task",
+      "group": "Stockroom",
+      "due": "2026-03-14",
+      "order": 50
+    },
+    {
+      "id": "48",
+      "title": "Size guide on every product page",
+      "stage": "ready",
+      "kind": "Feature",
+      "group": "Website",
+      "order": 60
+    },
+    {
+      "id": "39",
+      "title": "Card reader replaced at the till",
+      "stage": "done",
+      "kind": "Fix",
+      "group": "Stockroom",
+      "changed": "2026-03-06T11:05:00"
+    },
+    {
+      "id": "45",
+      "title": "Basket total wrong when a voucher is used twice",
+      "stage": "doing",
+      "kind": "Fix",
+      "group": "Website",
+      "order": 90
+    },
+    {
+      "id": "38",
+      "title": "Photos for the new range are too dark",
+      "stage": "checking",
+      "kind": "Fix",
+      "group": "Website",
+      "note": "Sent back twice",
+      "waiting": true,
+      "order": 20
+    },
+    {
+      "id": "41",
+      "title": "Which courier for next-day orders?",
+      "stage": "idea",
+      "kind": "Decision",
+      "group": "Launch day",
+      "due": "2026-03-12",
+      "note": "Holding up work",
+      "buttons": [
+        {
+          "name": "Northline",
+          "action": "answer-northline",
+          "link": "https://example.com/cards/41?answer=northline",
+          "main": true
+        },
+        {
+          "name": "Swift",
+          "action": "answer-swift",
+          "link": "https://example.com/cards/41?answer=swift"
+        }
+      ],
+      "waiting": true,
+      "order": 10
+    },
+    {
+      "id": "33",
+      "title": "Supplier contract signed",
+      "stage": "done",
+      "kind": "Decision",
+      "group": "Launch day",
+      "changed": "2026-02-11T15:45:00"
+    },
+    {
+      "id": "49",
+      "title": "Shelf labels with the new prices",
+      "stage": "ready",
+      "kind": "Task",
+      "group": "Stockroom",
+      "due": "2026-03-06",
+      "order": 70
+    },
+    {
+      "id": "52",
+      "title": "Gift wrapping at checkout",
+      "stage": "idea",
+      "kind": "Feature",
+      "group": "Website",
+      "order": 30
+    },
+    {
+      "id": "43",
+      "title": "Opening hours on the home page",
+      "stage": "checking",
+      "kind": "Fix",
+      "group": "Website",
+      "order": 110
+    }
+  ],
+  "totals": {
+    "done": 48
+  }
+}

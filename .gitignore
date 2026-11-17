@@ -1,0 +1,9 @@
+node_modules/
+tests/out/
+*.tmp-*
+__pycache__/
+*.pyc
+example/shop.db
+example/.shop-*.db
+build/
+*.egg-info/

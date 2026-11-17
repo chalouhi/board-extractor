@@ -1,0 +1,46 @@
+{
+  "title": "Shop relaunch",
+  "link_pattern": "https://example.com/cards/{id}",
+  "strip": {
+    "name": "Needs you"
+  },
+  "columns": [
+    {
+      "name": "Ideas",
+      "stages": [
+        "idea"
+      ]
+    },
+    {
+      "name": "Ready",
+      "stages": [
+        "ready"
+      ],
+      "limit": 4
+    },
+    {
+      "name": "Doing",
+      "stages": [
+        "doing",
+        "ready"
+      ],
+      "limit": 2
+    },
+    {
+      "name": "Checking",
+      "stages": [
+        "checking",
+        "rework"
+      ]
+    },
+    {
+      "name": "Done",
+      "stages": [
+        "done"
+      ],
+      "show": 3,
+      "keep_latest": 3,
+      "more_link": "https://example.com/done"
+    }
+  ]
+}
